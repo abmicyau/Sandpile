@@ -1,6 +1,6 @@
 # Abelian Sandpile Model
 
-[a link](https://en.wikipedia.org/wiki/Abelian_sandpile_model)
+[https://en.wikipedia.org/wiki/Abelian_sandpile_model](https://en.wikipedia.org/wiki/Abelian_sandpile_model)
 
 ## Instructions
 
