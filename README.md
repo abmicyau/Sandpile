@@ -6,3 +6,7 @@
 
 1. Clone repo
 2. Open sandpile.html in browser
+
+OR
+
+1. Go to [live demo](abmicyau.github.io/sandpile)

@@ -1,10 +1,10 @@
 (function() {
     "use strict"
 
-    const WIDTH = 1500;
-    const HEIGHT = 1500;
-    const SCALE_FACTOR = 1;
-    let FRAME_SKIP_DEFAULT = 1000;
+    const WIDTH = 320;
+    const HEIGHT = 320;
+    const SCALE_FACTOR = 2;
+    let FRAME_SKIP_DEFAULT = 1;
     let FRAME_SKIP = FRAME_SKIP_DEFAULT;
 
     const GRAINS = 10000000;
@@ -94,7 +94,7 @@
                 const now = Date.now();
                 const duration = now - this._cycleStart;
                 this._cycleStart = now;
-                
+
                 const total = now - this._startTime;
 
                 $("#clock").text(this.msToTime(total));
@@ -121,13 +121,6 @@
                 "<div id='time'></div>");
             $("body").append(
                 "<div id='grains'></div>");
-
-            this._speedButton = $("<button>");
-            this._speedButton.attr("type", "button");
-            this._speedButton.html("Toggle Frame Skip");
-            this._speedButton[0].onclick = this.toggleSpeed.bind(this);
-
-            $("body").append(this._speedButton);
 
             this._oCanvas = $("#canvas")[0];
             this._oContext = this._oCanvas.getContext("2d");
