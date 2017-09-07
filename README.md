@@ -9,4 +9,4 @@
 
 OR
 
-1. Go to [live demo](abmicyau.github.io/sandpile)
+1. Go to [live demo](http://abmicyau.github.io/sandpile)
